@@ -1,0 +1,3 @@
+ORIG_PN="gstreamermm"
+
+inherit gtkmm
