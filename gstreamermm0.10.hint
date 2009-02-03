@@ -1,0 +1,3 @@
+category: Audio Video
+sdesc: "C++ GStreamer bindings (sources)"
+ldesc: "C++ bindings for the GStreamer multimedia framework"
