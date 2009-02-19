@@ -38,17 +38,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gstreamermm0.10-0.9.9-X-src.tar.bz2
+  unpack gstreamermm0.10-0.10.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gstreamermm0.10-0.9.9-X.cygport all
+  cygport ./gstreamermm0.10-0.10.0-X.cygport all
 
 This will create:
-  /usr/src/gstreamermm0.10-0.9.9-X-src.tar.bz2
-  /usr/src/libgstreamermm0.10-devel-0.9.9-X.tar.bz2
-  /usr/src/libgstreamermm0.10-doc-0.9.9-X.tar.bz2
-  /usr/src/libgstreamermm0.10_2-0.9.9-X.tar.bz2
+  /usr/src/gstreamermm0.10-0.10.0-X-src.tar.bz2
+  /usr/src/libgstreamermm0.10-devel-0.10.0-X.tar.bz2
+  /usr/src/libgstreamermm0.10-doc-0.10.0-X.tar.bz2
+  /usr/src/libgstreamermm0.10_2-0.10.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -56,12 +56,12 @@ Files included in the binary packages:
 
 (libgstreamermm0.10_2)
   /usr/bin/cyggstreamermm-0.10-2.dll
-  /usr/share/doc/gstreamermm0.10-0.9.9/AUTHORS
-  /usr/share/doc/gstreamermm0.10-0.9.9/COPYING
-  /usr/share/doc/gstreamermm0.10-0.9.9/ChangeLog
-  /usr/share/doc/gstreamermm0.10-0.9.9/INSTALL
-  /usr/share/doc/gstreamermm0.10-0.9.9/NEWS
-  /usr/share/doc/gstreamermm0.10-0.9.9/README
+  /usr/share/doc/gstreamermm0.10-0.10.0/AUTHORS
+  /usr/share/doc/gstreamermm0.10-0.10.0/COPYING
+  /usr/share/doc/gstreamermm0.10-0.10.0/ChangeLog
+  /usr/share/doc/gstreamermm0.10-0.10.0/INSTALL
+  /usr/share/doc/gstreamermm0.10-0.10.0/NEWS
+  /usr/share/doc/gstreamermm0.10-0.10.0/README
 
 (libgstreamermm0.10-devel)
   /usr/include/gstreamermm-0.10/gstreamermm.h
@@ -298,6 +298,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 0.10.0-1 -----
+Version bump.
 
 ----- version 0.9.9-1 -----
 Initial release for Cygwin.
