@@ -3,30 +3,32 @@ gstreamermm0.10
 C++ bindings for the GStreamer multimedia framework
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libglib2.0_0-2.18.4-1
-  libglibmm2.4_1-2.18.1-1
-  libgstaudio0.10_0-0.10.22-1
-  libgstcdda0.10_0-0.10.22-1
-  libgstinterfaces0.10_0-0.10.22-1
-  libgstreamer0.10_0-0.10.22-1
-  libgstvideo0.10_0-0.10.22-1
-  libsigc2.0_0-2.2.3-1
-  libxml++2.6_2-2.24.2-1
-  libxml2-2.7.3-1
+  cygwin-1.7.0-48
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.3-1
+  libglibmm2.4_1-2.20.0-1
+  libgstaudio0.10_0-0.10.23-1
+  libgstcdda0.10_0-0.10.23-1
+  libgstinterfaces0.10_0-0.10.23-1
+  libgstreamer0.10_0-0.10.23-1
+  libgstvideo0.10_0-0.10.23-1
+  libsigc2.0_0-2.2.3-10
+  libstdc++6-4.3.2-2
+  libxml++2.6_2-2.26.0-1
+  libxml2-2.7.3-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.4.3-1
+  cygport-0.9.6-1
   gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.7a-12
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -38,17 +40,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gstreamermm0.10-0.10.1-X-src.tar.bz2
+  unpack gstreamermm0.10-0.10.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gstreamermm0.10-0.10.1-X.cygport all
+  cygport ./gstreamermm0.10-0.10.2-X.cygport all
 
 This will create:
-  /usr/src/gstreamermm0.10-0.10.1-X-src.tar.bz2
-  /usr/src/libgstreamermm0.10-devel-0.10.1-X.tar.bz2
-  /usr/src/libgstreamermm0.10-doc-0.10.1-X.tar.bz2
-  /usr/src/libgstreamermm0.10_2-0.10.1-X.tar.bz2
+  /usr/src/gstreamermm0.10-0.10.2-X-src.tar.bz2
+  /usr/src/libgstreamermm0.10-devel-0.10.2-X.tar.bz2
+  /usr/src/libgstreamermm0.10-doc-0.10.2-X.tar.bz2
+  /usr/src/libgstreamermm0.10_2-0.10.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -56,16 +58,19 @@ Files included in the binary packages:
 
 (libgstreamermm0.10_2)
   /usr/bin/cyggstreamermm-0.10-2.dll
-  /usr/share/doc/gstreamermm0.10-0.10.1/AUTHORS
-  /usr/share/doc/gstreamermm0.10-0.10.1/COPYING
-  /usr/share/doc/gstreamermm0.10-0.10.1/ChangeLog
-  /usr/share/doc/gstreamermm0.10-0.10.1/INSTALL
-  /usr/share/doc/gstreamermm0.10-0.10.1/NEWS
-  /usr/share/doc/gstreamermm0.10-0.10.1/README
+  /usr/share/doc/gstreamermm0.10/AUTHORS
+  /usr/share/doc/gstreamermm0.10/COPYING
+  /usr/share/doc/gstreamermm0.10/ChangeLog
+  /usr/share/doc/gstreamermm0.10/NEWS
+  /usr/share/doc/gstreamermm0.10/README
 
 (libgstreamermm0.10-devel)
+  /usr/bin/cyggstreamermm_get_plugin_defs-0.10-2.dll
   /usr/include/gstreamermm-0.10/gstreamermm.h
   /usr/include/gstreamermm-0.10/gstreamermm/adder.h
+  /usr/include/gstreamermm-0.10/gstreamermm/alsamixer.h
+  /usr/include/gstreamermm-0.10/gstreamermm/alsasink.h
+  /usr/include/gstreamermm-0.10/gstreamermm/alsasrc.h
   /usr/include/gstreamermm-0.10/gstreamermm/audioclock.h
   /usr/include/gstreamermm-0.10/gstreamermm/audioconvert.h
   /usr/include/gstreamermm-0.10/gstreamermm/audiofilter.h
@@ -138,6 +143,9 @@ Files included in the binary packages:
   /usr/include/gstreamermm-0.10/gstreamermm/pluginfeature.h
   /usr/include/gstreamermm-0.10/gstreamermm/preset.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/adder_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/alsamixer_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/alsasink_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/alsasrc_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/audioclock_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/audioconvert_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/audiofilter_p.h
@@ -212,12 +220,16 @@ Files included in the binary packages:
   /usr/include/gstreamermm-0.10/gstreamermm/private/query_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/queue_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/registry_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/ringbuffer_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/segment_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/structure_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/systemclock_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/taglist_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/tagsetter_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/task_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/tcpclientsink_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/tcpclientsrc_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/tcpserversrc_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/tee_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/textoverlay_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/textrender_p.h
@@ -227,7 +239,7 @@ Files included in the binary packages:
   /usr/include/gstreamermm-0.10/gstreamermm/private/tuner_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/tunerchannel_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/tunernorm_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/typefind_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/typefindelement_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/urihandler_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/value_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/videoorientation_p.h
@@ -243,17 +255,22 @@ Files included in the binary packages:
   /usr/include/gstreamermm-0.10/gstreamermm/private/ximagesink_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/xml_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/private/xoverlay_p.h
+  /usr/include/gstreamermm-0.10/gstreamermm/private/xvimagesink_p.h
   /usr/include/gstreamermm-0.10/gstreamermm/propertyprobe.h
   /usr/include/gstreamermm-0.10/gstreamermm/pushsrc.h
   /usr/include/gstreamermm-0.10/gstreamermm/query.h
   /usr/include/gstreamermm-0.10/gstreamermm/queue.h
   /usr/include/gstreamermm-0.10/gstreamermm/registry.h
+  /usr/include/gstreamermm-0.10/gstreamermm/ringbuffer.h
   /usr/include/gstreamermm-0.10/gstreamermm/segment.h
   /usr/include/gstreamermm-0.10/gstreamermm/structure.h
   /usr/include/gstreamermm-0.10/gstreamermm/systemclock.h
   /usr/include/gstreamermm-0.10/gstreamermm/taglist.h
   /usr/include/gstreamermm-0.10/gstreamermm/tagsetter.h
   /usr/include/gstreamermm-0.10/gstreamermm/task.h
+  /usr/include/gstreamermm-0.10/gstreamermm/tcpclientsink.h
+  /usr/include/gstreamermm-0.10/gstreamermm/tcpclientsrc.h
+  /usr/include/gstreamermm-0.10/gstreamermm/tcpserversrc.h
   /usr/include/gstreamermm-0.10/gstreamermm/tee.h
   /usr/include/gstreamermm-0.10/gstreamermm/textoverlay.h
   /usr/include/gstreamermm-0.10/gstreamermm/textrender.h
@@ -263,7 +280,7 @@ Files included in the binary packages:
   /usr/include/gstreamermm-0.10/gstreamermm/tuner.h
   /usr/include/gstreamermm-0.10/gstreamermm/tunerchannel.h
   /usr/include/gstreamermm-0.10/gstreamermm/tunernorm.h
-  /usr/include/gstreamermm-0.10/gstreamermm/typefind.h
+  /usr/include/gstreamermm-0.10/gstreamermm/typefindelement.h
   /usr/include/gstreamermm-0.10/gstreamermm/urihandler.h
   /usr/include/gstreamermm-0.10/gstreamermm/value.h
   /usr/include/gstreamermm-0.10/gstreamermm/version.h
@@ -282,14 +299,22 @@ Files included in the binary packages:
   /usr/include/gstreamermm-0.10/gstreamermm/ximagesink.h
   /usr/include/gstreamermm-0.10/gstreamermm/xml.h
   /usr/include/gstreamermm-0.10/gstreamermm/xoverlay.h
+  /usr/include/gstreamermm-0.10/gstreamermm/xvimagesink.h
+  /usr/include/gstreamermm-0.10/gstreamermm_get_plugin_defs/get_plugin_defs.h
+  /usr/lib/gstreamermm-0.10/gen/generate_plugin_gmmproc_file.exe
   /usr/lib/gstreamermm-0.10/include/gstreamermmconfig.h
   /usr/lib/gstreamermm-0.10/proc/m4/class_boxedtype_extra.m4
   /usr/lib/gstreamermm-0.10/proc/m4/class_gstminiobject.m4
   /usr/lib/gstreamermm-0.10/proc/m4/convert.m4
   /usr/lib/gstreamermm-0.10/proc/m4/convert_gst.m4
+  /usr/lib/gstreamermm-0.10/proc/m4/ctocpp.m4
+  /usr/lib/gstreamermm-0.10/proc/m4/ctocpp_base.m4
+  /usr/lib/gstreamermm-0.10/proc/m4/ctocpp_gstreamermm.m4
   /usr/lib/gstreamermm-0.10/proc/m4/shared.m4
   /usr/lib/libgstreamermm-0.10.dll.a
   /usr/lib/libgstreamermm-0.10.la
+  /usr/lib/libgstreamermm_get_plugin_defs-0.10.dll.a
+  /usr/lib/libgstreamermm_get_plugin_defs-0.10.la
   /usr/lib/pkgconfig/gstreamermm-0.10.pc
 
 (libgstreamermm0.10-doc)
@@ -299,11 +324,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.10.1-1 -----
-Version bump.
-
------ version 0.9.9-1 -----
-Initial release for Cygwin.
+----- version 0.10.2-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
