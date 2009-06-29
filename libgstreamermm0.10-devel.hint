@@ -1,5 +1,5 @@
 category: Audio Video
-requires: cygwin libgstreamermm0.10_2 libglib2.0-devel libglibmm2.4-devel libgstaudio0.10-devel libgstcdda0.10-devel libgstinterfaces0.10-devel libgstreamer0.10-devel libgstvideo0.10-devel libsigc2.0-devel libstdc++6-devel libxml++2.6-devel libxml2-devel
+requires: libgstreamermm0.10_2 libglib2.0-devel libglibmm2.4-devel libgstaudio0.10-devel libgstcdda0.10-devel libgstinterfaces0.10-devel libgstreamer0.10-devel libgstvideo0.10-devel libsigc2.0-devel libstdc++6-devel libxml++2.6-devel libxml2-devel
 external-source: gstreamermm0.10
 sdesc: "C++ GStreamer bindings (development)"
 ldesc: "C++ bindings for the GStreamer multimedia framework"
