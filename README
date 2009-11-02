@@ -3,31 +3,32 @@ gstreamermm0.10
 C++ bindings for the GStreamer multimedia framework
 
 Runtime requirements:
-  cygwin-1.7.0-48
-  libgcc1-4.3.2-2
-  libglib2.0_0-2.20.3-1
-  libglibmm2.4_1-2.20.0-1
-  libgstaudio0.10_0-0.10.23-1
-  libgstcdda0.10_0-0.10.23-1
-  libgstinterfaces0.10_0-0.10.23-1
-  libgstreamer0.10_0-0.10.23-1
-  libgstvideo0.10_0-0.10.23-1
-  libsigc2.0_0-2.2.3-10
-  libstdc++6-4.3.2-2
-  libxml++2.6_2-2.26.0-1
-  libxml2-2.7.3-10
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.22.2-1
+  libglibmm2.4_1-2.22.1-1
+  libgstaudio0.10_0-0.10.25-1
+  libgstcdda0.10_0-0.10.25-1
+  libgstinterfaces0.10_0-0.10.25-1
+  libgstreamer0.10_0-0.10.25-1
+  libgstvideo0.10_0-0.10.25-1
+  libsigc2.0_0-2.2.4.2-1
+  libstdc++6-4.3.4-1
+  libxml++2.6_2-2.26.1-1
+  libxml2-2.7.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-1
-  gcc4-core-4.3.2-2
-  gcc4-g++-4.3.2-2
-  libtool-2.2.7a-12
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gcc4-g++-4.3.4-1
+  libtool-2.2.7a-14
   make-3.81-2
+  mm-common-0.8-1
   pkg-config-0.23b-10
   sed-4.1.5-2
 
@@ -40,289 +41,24 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gstreamermm0.10-0.10.2-X-src.tar.bz2
+  unpack gstreamermm0.10-0.10.5.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gstreamermm0.10-0.10.2-X.cygport all
+  cygport ./gstreamermm0.10-0.10.5.2-X.cygport all
 
 This will create:
-  /usr/src/gstreamermm0.10-0.10.2-X-src.tar.bz2
-  /usr/src/libgstreamermm0.10-devel-0.10.2-X.tar.bz2
-  /usr/src/libgstreamermm0.10-doc-0.10.2-X.tar.bz2
-  /usr/src/libgstreamermm0.10_2-0.10.2-X.tar.bz2
+  /usr/src/gstreamermm0.10-0.10.5.2-X-src.tar.bz2
+  /usr/src/libgstreamermm0.10-devel-0.10.5.2-X.tar.bz2
+  /usr/src/libgstreamermm0.10-doc-0.10.5.2-X.tar.bz2
+  /usr/src/libgstreamermm0.10_2-0.10.5.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libgstreamermm0.10_2)
-  /usr/bin/cyggstreamermm-0.10-2.dll
-  /usr/share/doc/gstreamermm0.10/AUTHORS
-  /usr/share/doc/gstreamermm0.10/COPYING
-  /usr/share/doc/gstreamermm0.10/ChangeLog
-  /usr/share/doc/gstreamermm0.10/NEWS
-  /usr/share/doc/gstreamermm0.10/README
-
-(libgstreamermm0.10-devel)
-  /usr/bin/cyggstreamermm_get_plugin_defs-0.10-2.dll
-  /usr/include/gstreamermm-0.10/gstreamermm.h
-  /usr/include/gstreamermm-0.10/gstreamermm/adder.h
-  /usr/include/gstreamermm-0.10/gstreamermm/alsamixer.h
-  /usr/include/gstreamermm-0.10/gstreamermm/alsasink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/alsasrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/audioclock.h
-  /usr/include/gstreamermm-0.10/gstreamermm/audioconvert.h
-  /usr/include/gstreamermm-0.10/gstreamermm/audiofilter.h
-  /usr/include/gstreamermm-0.10/gstreamermm/audioresample.h
-  /usr/include/gstreamermm-0.10/gstreamermm/audiosink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/audiosrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/audiotestsrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/baseaudiosink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/baseaudiosrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/basesink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/basesrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/basetransform.h
-  /usr/include/gstreamermm-0.10/gstreamermm/bin.h
-  /usr/include/gstreamermm-0.10/gstreamermm/buffer.h
-  /usr/include/gstreamermm-0.10/gstreamermm/bus.h
-  /usr/include/gstreamermm-0.10/gstreamermm/caps.h
-  /usr/include/gstreamermm-0.10/gstreamermm/capsfilter.h
-  /usr/include/gstreamermm-0.10/gstreamermm/cddabasesrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/cdparanoiasrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/childproxy.h
-  /usr/include/gstreamermm-0.10/gstreamermm/clock.h
-  /usr/include/gstreamermm-0.10/gstreamermm/clockoverlay.h
-  /usr/include/gstreamermm-0.10/gstreamermm/colorbalance.h
-  /usr/include/gstreamermm-0.10/gstreamermm/colorbalancechannel.h
-  /usr/include/gstreamermm-0.10/gstreamermm/decodebin.h
-  /usr/include/gstreamermm-0.10/gstreamermm/element.h
-  /usr/include/gstreamermm-0.10/gstreamermm/elementfactory.h
-  /usr/include/gstreamermm-0.10/gstreamermm/enums.h
-  /usr/include/gstreamermm-0.10/gstreamermm/error.h
-  /usr/include/gstreamermm-0.10/gstreamermm/event.h
-  /usr/include/gstreamermm-0.10/gstreamermm/fakesink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/fakesrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/fdsink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/fdsrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/ffmpegcolorspace.h
-  /usr/include/gstreamermm-0.10/gstreamermm/filesink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/filesrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/filter.h
-  /usr/include/gstreamermm-0.10/gstreamermm/format.h
-  /usr/include/gstreamermm-0.10/gstreamermm/gdpdepay.h
-  /usr/include/gstreamermm-0.10/gstreamermm/gdppay.h
-  /usr/include/gstreamermm-0.10/gstreamermm/ghostpad.h
-  /usr/include/gstreamermm-0.10/gstreamermm/giosink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/giosrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/giostreamsink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/giostreamsrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/gst_wrap_init.h
-  /usr/include/gstreamermm-0.10/gstreamermm/identity.h
-  /usr/include/gstreamermm-0.10/gstreamermm/index.h
-  /usr/include/gstreamermm-0.10/gstreamermm/indexfactory.h
-  /usr/include/gstreamermm-0.10/gstreamermm/init.h
-  /usr/include/gstreamermm-0.10/gstreamermm/interface.h
-  /usr/include/gstreamermm-0.10/gstreamermm/iterator.h
-  /usr/include/gstreamermm-0.10/gstreamermm/message.h
-  /usr/include/gstreamermm-0.10/gstreamermm/miniobject.h
-  /usr/include/gstreamermm-0.10/gstreamermm/mixer.h
-  /usr/include/gstreamermm-0.10/gstreamermm/mixeroptions.h
-  /usr/include/gstreamermm-0.10/gstreamermm/mixertrack.h
-  /usr/include/gstreamermm-0.10/gstreamermm/multiqueue.h
-  /usr/include/gstreamermm-0.10/gstreamermm/navigation.h
-  /usr/include/gstreamermm-0.10/gstreamermm/object.h
-  /usr/include/gstreamermm-0.10/gstreamermm/oggdemux.h
-  /usr/include/gstreamermm-0.10/gstreamermm/oggmux.h
-  /usr/include/gstreamermm-0.10/gstreamermm/pad.h
-  /usr/include/gstreamermm-0.10/gstreamermm/padtemplate.h
-  /usr/include/gstreamermm-0.10/gstreamermm/parse.h
-  /usr/include/gstreamermm-0.10/gstreamermm/pipeline.h
-  /usr/include/gstreamermm-0.10/gstreamermm/playbin2.h
-  /usr/include/gstreamermm-0.10/gstreamermm/plugin.h
-  /usr/include/gstreamermm-0.10/gstreamermm/pluginfeature.h
-  /usr/include/gstreamermm-0.10/gstreamermm/preset.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/adder_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/alsamixer_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/alsasink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/alsasrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/audioclock_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/audioconvert_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/audiofilter_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/audioresample_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/audiosink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/audiosrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/audiotestsrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/baseaudiosink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/baseaudiosrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/basesink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/basesrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/basetransform_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/bin_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/buffer_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/bus_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/caps_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/capsfilter_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/cddabasesrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/cdparanoiasrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/childproxy_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/clock_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/clockoverlay_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/colorbalance_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/colorbalancechannel_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/decodebin_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/element_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/elementfactory_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/enums_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/error_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/event_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/fakesink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/fakesrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/fdsink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/fdsrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/ffmpegcolorspace_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/filesink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/filesrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/filter_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/format_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/gdpdepay_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/gdppay_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/ghostpad_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/giosink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/giosrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/giostreamsink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/giostreamsrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/identity_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/index_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/indexfactory_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/interface_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/iterator_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/message_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/miniobject_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/mixer_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/mixeroptions_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/mixertrack_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/multiqueue_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/navigation_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/object_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/oggdemux_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/oggmux_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/pad_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/padtemplate_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/parse_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/pipeline_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/playbin2_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/plugin_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/pluginfeature_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/preset_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/propertyprobe_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/pushsrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/query_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/queue_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/registry_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/ringbuffer_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/segment_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/structure_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/systemclock_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/taglist_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tagsetter_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/task_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tcpclientsink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tcpclientsrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tcpserversrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tee_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/textoverlay_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/textrender_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/theoradec_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/theoraenc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/timeoverlay_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tuner_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tunerchannel_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/tunernorm_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/typefindelement_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/urihandler_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/value_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/videoorientation_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/videorate_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/videoscale_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/videosink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/videotestsrc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/volume_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/vorbisdec_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/vorbisenc_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/vorbisparse_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/vorbistag_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/ximagesink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/xml_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/xoverlay_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/private/xvimagesink_p.h
-  /usr/include/gstreamermm-0.10/gstreamermm/propertyprobe.h
-  /usr/include/gstreamermm-0.10/gstreamermm/pushsrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/query.h
-  /usr/include/gstreamermm-0.10/gstreamermm/queue.h
-  /usr/include/gstreamermm-0.10/gstreamermm/registry.h
-  /usr/include/gstreamermm-0.10/gstreamermm/ringbuffer.h
-  /usr/include/gstreamermm-0.10/gstreamermm/segment.h
-  /usr/include/gstreamermm-0.10/gstreamermm/structure.h
-  /usr/include/gstreamermm-0.10/gstreamermm/systemclock.h
-  /usr/include/gstreamermm-0.10/gstreamermm/taglist.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tagsetter.h
-  /usr/include/gstreamermm-0.10/gstreamermm/task.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tcpclientsink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tcpclientsrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tcpserversrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tee.h
-  /usr/include/gstreamermm-0.10/gstreamermm/textoverlay.h
-  /usr/include/gstreamermm-0.10/gstreamermm/textrender.h
-  /usr/include/gstreamermm-0.10/gstreamermm/theoradec.h
-  /usr/include/gstreamermm-0.10/gstreamermm/theoraenc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/timeoverlay.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tuner.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tunerchannel.h
-  /usr/include/gstreamermm-0.10/gstreamermm/tunernorm.h
-  /usr/include/gstreamermm-0.10/gstreamermm/typefindelement.h
-  /usr/include/gstreamermm-0.10/gstreamermm/urihandler.h
-  /usr/include/gstreamermm-0.10/gstreamermm/value.h
-  /usr/include/gstreamermm-0.10/gstreamermm/version.h
-  /usr/include/gstreamermm-0.10/gstreamermm/videoorientation.h
-  /usr/include/gstreamermm-0.10/gstreamermm/videorate.h
-  /usr/include/gstreamermm-0.10/gstreamermm/videoscale.h
-  /usr/include/gstreamermm-0.10/gstreamermm/videosink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/videotestsrc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/volume.h
-  /usr/include/gstreamermm-0.10/gstreamermm/vorbisdec.h
-  /usr/include/gstreamermm-0.10/gstreamermm/vorbisenc.h
-  /usr/include/gstreamermm-0.10/gstreamermm/vorbisparse.h
-  /usr/include/gstreamermm-0.10/gstreamermm/vorbistag.h
-  /usr/include/gstreamermm-0.10/gstreamermm/wrap.h
-  /usr/include/gstreamermm-0.10/gstreamermm/wrap_init.h
-  /usr/include/gstreamermm-0.10/gstreamermm/ximagesink.h
-  /usr/include/gstreamermm-0.10/gstreamermm/xml.h
-  /usr/include/gstreamermm-0.10/gstreamermm/xoverlay.h
-  /usr/include/gstreamermm-0.10/gstreamermm/xvimagesink.h
-  /usr/include/gstreamermm-0.10/gstreamermm_get_plugin_defs/get_plugin_defs.h
-  /usr/lib/gstreamermm-0.10/gen/generate_plugin_gmmproc_file.exe
-  /usr/lib/gstreamermm-0.10/include/gstreamermmconfig.h
-  /usr/lib/gstreamermm-0.10/proc/m4/class_boxedtype_extra.m4
-  /usr/lib/gstreamermm-0.10/proc/m4/class_gstminiobject.m4
-  /usr/lib/gstreamermm-0.10/proc/m4/convert.m4
-  /usr/lib/gstreamermm-0.10/proc/m4/convert_gst.m4
-  /usr/lib/gstreamermm-0.10/proc/m4/ctocpp.m4
-  /usr/lib/gstreamermm-0.10/proc/m4/ctocpp_base.m4
-  /usr/lib/gstreamermm-0.10/proc/m4/ctocpp_gstreamermm.m4
-  /usr/lib/gstreamermm-0.10/proc/m4/shared.m4
-  /usr/lib/libgstreamermm-0.10.dll.a
-  /usr/lib/libgstreamermm-0.10.la
-  /usr/lib/libgstreamermm_get_plugin_defs-0.10.dll.a
-  /usr/lib/libgstreamermm_get_plugin_defs-0.10.la
-  /usr/lib/pkgconfig/gstreamermm-0.10.pc
-
-(libgstreamermm0.10-doc)
-  /usr/share/doc/gstreamermm-0.10/docs/reference/html/*
-
-------------------
-
 Port Notes:
+
+----- version 0.10.5.2-1 -----
+Version bump.
 
 ----- version 0.10.2-1 -----
 Initial release for Cygwin 1.7.
