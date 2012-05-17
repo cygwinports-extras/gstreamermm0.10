@@ -6,3 +6,5 @@ PKG_NAMES="lib${PN}_2 lib${PN}-devel lib${PN}-doc"
 libgstreamermm0_10_2_CONTENTS="--exclude=gstreamermm-0.10 usr/bin/cyggstreamermm-0.10-2.dll usr/share/doc/"
 libgstreamermm0_10_devel_CONTENTS="usr/bin/*_get_plugin_defs-*.dll usr/include/ usr/lib/"
 libgstreamermm0_10_doc_CONTENTS="usr/share/devhelp/ usr/share/doc/gstreamermm-0.10/"
+
+KEEP_LA_FILES="none"
