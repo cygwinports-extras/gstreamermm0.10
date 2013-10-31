@@ -2,7 +2,7 @@ ORIG_PN="gstreamermm"
 inherit gtkmm
 
 NAME="gstreamermm0.10"
-VERSION=0.10.10.2
+VERSION=0.10.11
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="C++ GStreamer bindings"
